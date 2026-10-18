@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #0b0e14;
+  color: #e8ecf1;
+  font-family: "Noto Sans SC", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #232a36;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4355;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-kpl-red text-white hover:bg-kpl-redDark hover:shadow-glow active:scale-95;
+  }
+  .btn-ghost {
+    @apply btn bg-kpl-surface2 text-kpl-text hover:bg-kpl-border border border-kpl-border;
+  }
+  .card {
+    @apply bg-kpl-surface border border-kpl-border rounded-xl shadow-card;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+}
+
+/* Slider styling for rating */
+input[type="range"].rating-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  outline: none;
+}
+input[type="range"].rating-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #e63946;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(230, 57, 70, 0.5);
+}
+input[type="range"].rating-slider::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #e63946;
+  cursor: pointer;
+}

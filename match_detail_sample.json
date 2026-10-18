@@ -1,0 +1,403 @@
+﻿{
+    "round_details":  [
+                          {
+                              "round":  1,
+                              "win_team":  "KPL2026S3_ts",
+                              "win_team_name":  "åäº¬WB",
+                              "vid":  "5001834824383017623",
+                              "players":  [
+                                              {
+                                                  "playerid":  "60011036",
+                                                  "position":  1,
+                                                  "hero_id":  128,
+                                                  "hero_name":  "æ¹æ",
+                                                  "hero_icon":  "128.jpg",
+                                                  "vid":  "5001834824402291216"
+                                              },
+                                              {
+                                                  "playerid":  "60010353",
+                                                  "position":  4,
+                                                  "hero_id":  518,
+                                                  "hero_name":  "é©¬è¶\u0085",
+                                                  "hero_icon":  "518.jpg",
+                                                  "vid":  "5001834824395590367"
+                                              },
+                                              {
+                                                  "playerid":  "60011929",
+                                                  "position":  2,
+                                                  "hero_id":  106,
+                                                  "hero_name":  "å°ä¹",
+                                                  "hero_icon":  "106.jpg",
+                                                  "vid":  "5001834824405575248"
+                                              },
+                                              {
+                                                  "playerid":  "60012155",
+                                                  "position":  3,
+                                                  "hero_id":  192,
+                                                  "hero_name":  "é»å¿ ",
+                                                  "hero_icon":  "192.jpg",
+                                                  "vid":  "5001834824396830869"
+                                              },
+                                              {
+                                                  "playerid":  "60011807",
+                                                  "position":  5,
+                                                  "hero_id":  525,
+                                                  "hero_name":  "é²ç­å¤§å¸",
+                                                  "hero_icon":  "525.jpg",
+                                                  "vid":  "5001834824402135840"
+                                              },
+                                              {
+                                                  "playerid":  "60011676",
+                                                  "position":  1,
+                                                  "hero_id":  536,
+                                                  "hero_name":  "å¤æ´ç¹",
+                                                  "hero_icon":  "536.jpg",
+                                                  "vid":  "5001834824384010312"
+                                              },
+                                              {
+                                                  "playerid":  "60010581",
+                                                  "position":  4,
+                                                  "hero_id":  538,
+                                                  "hero_name":  "äºç¼¨",
+                                                  "hero_icon":  "538.jpg",
+                                                  "vid":  "5001834822315679304"
+                                              },
+                                              {
+                                                  "playerid":  "60011787",
+                                                  "position":  2,
+                                                  "hero_id":  312,
+                                                  "hero_name":  "æ²æ¢¦æºª",
+                                                  "hero_icon":  "312.jpg",
+                                                  "vid":  "5001834822315682644"
+                                              },
+                                              {
+                                                  "playerid":  "60011737",
+                                                  "position":  3,
+                                                  "hero_id":  519,
+                                                  "hero_name":  "æé",
+                                                  "hero_icon":  "519.jpg",
+                                                  "vid":  "5001834824384320566"
+                                              },
+                                              {
+                                                  "playerid":  "70010356",
+                                                  "position":  5,
+                                                  "hero_id":  105,
+                                                  "hero_name":  "å»é¢",
+                                                  "hero_icon":  "105.jpg",
+                                                  "vid":  "5001834824386139202"
+                                              }
+                                          ]
+                          },
+                          {
+                              "round":  2,
+                              "win_team":  "KPL2026S3_ts",
+                              "win_team_name":  "åäº¬WB",
+                              "vid":  "5001834824383759491",
+                              "players":  [
+                                              {
+                                                  "playerid":  "60011036",
+                                                  "position":  1,
+                                                  "hero_id":  503,
+                                                  "hero_name":  "çé",
+                                                  "hero_icon":  "503.jpg",
+                                                  "vid":  "5001834824388302510"
+                                              },
+                                              {
+                                                  "playerid":  "60010353",
+                                                  "position":  4,
+                                                  "hero_id":  107,
+                                                  "hero_name":  "èµµäº",
+                                                  "hero_icon":  "107.jpg",
+                                                  "vid":  "5001834824381338363"
+                                              },
+                                              {
+                                                  "playerid":  "60011929",
+                                                  "position":  2,
+                                                  "hero_id":  312,
+                                                  "hero_name":  "æ²æ¢¦æºª",
+                                                  "hero_icon":  "312.jpg",
+                                                  "vid":  "5001834824384552368"
+                                              },
+                                              {
+                                                  "playerid":  "60012155",
+                                                  "position":  3,
+                                                  "hero_id":  199,
+                                                  "hero_name":  "å\u0085¬å­ç¦»",
+                                                  "hero_icon":  "199.jpg",
+                                                  "vid":  "5001834822315677237"
+                                              },
+                                              {
+                                                  "playerid":  "70010342",
+                                                  "position":  5,
+                                                  "hero_id":  186,
+                                                  "hero_name":  "å¤ªä¹çäºº",
+                                                  "hero_icon":  "186.jpg",
+                                                  "vid":  "5001834824382816259"
+                                              },
+                                              {
+                                                  "playerid":  "60011676",
+                                                  "position":  1,
+                                                  "hero_id":  537,
+                                                  "hero_name":  "å¸ç©ºé",
+                                                  "hero_icon":  "537.jpg",
+                                                  "vid":  "5001834824386890885"
+                                              },
+                                              {
+                                                  "playerid":  "60010581",
+                                                  "position":  4,
+                                                  "hero_id":  178,
+                                                  "hero_name":  "æ¨æ¬",
+                                                  "hero_icon":  "178.jpg",
+                                                  "vid":  "5001834824381341147"
+                                              },
+                                              {
+                                                  "playerid":  "60011787",
+                                                  "position":  2,
+                                                  "hero_id":  521,
+                                                  "hero_name":  "æµ·æ",
+                                                  "hero_icon":  "521.jpg",
+                                                  "vid":  "5001834824383665420"
+                                              },
+                                              {
+                                                  "playerid":  "60011737",
+                                                  "position":  3,
+                                                  "hero_id":  548,
+                                                  "hero_name":  "æå¨\u0085",
+                                                  "hero_icon":  "548.jpg",
+                                                  "vid":  "5001834824385978702"
+                                              },
+                                              {
+                                                  "playerid":  "70010356",
+                                                  "position":  5,
+                                                  "hero_id":  171,
+                                                  "hero_name":  "å¼ é£",
+                                                  "hero_icon":  "171.jpg",
+                                                  "vid":  "5001834822315682868"
+                                              }
+                                          ]
+                          },
+                          {
+                              "round":  3,
+                              "win_team":  "KPL2026S3_ts",
+                              "win_team_name":  "åäº¬WB",
+                              "vid":  "5001834824383610880",
+                              "players":  [
+                                              {
+                                                  "playerid":  "60011036",
+                                                  "position":  1,
+                                                  "hero_id":  537,
+                                                  "hero_name":  "å¸ç©ºé",
+                                                  "hero_icon":  "537.jpg",
+                                                  "vid":  "5001834824449397978"
+                                              },
+                                              {
+                                                  "playerid":  "60012116",
+                                                  "position":  4,
+                                                  "hero_id":  193,
+                                                  "hero_name":  "é ",
+                                                  "hero_icon":  "193.jpg",
+                                                  "vid":  "5001834824386136674"
+                                              },
+                                              {
+                                                  "playerid":  "60011929",
+                                                  "position":  2,
+                                                  "hero_id":  157,
+                                                  "hero_name":  "ä¸ç¥ç«è",
+                                                  "hero_icon":  "157.jpg",
+                                                  "vid":  "5001834824380122445"
+                                              },
+                                              {
+                                                  "playerid":  "60012155",
+                                                  "position":  3,
+                                                  "hero_id":  177,
+                                                  "hero_name":  "è",
+                                                  "hero_icon":  "177.jpg",
+                                                  "vid":  "5001834824383763192"
+                                              },
+                                              {
+                                                  "playerid":  "70010342",
+                                                  "position":  5,
+                                                  "hero_id":  171,
+                                                  "hero_name":  "å¼ é£",
+                                                  "hero_icon":  "171.jpg",
+                                                  "vid":  "5001834824380119549"
+                                              },
+                                              {
+                                                  "playerid":  "60011676",
+                                                  "position":  1,
+                                                  "hero_id":  140,
+                                                  "hero_name":  "å\u0085³ç¾½",
+                                                  "hero_icon":  "140.jpg",
+                                                  "vid":  "5001834824381488172"
+                                              },
+                                              {
+                                                  "playerid":  "60010581",
+                                                  "position":  4,
+                                                  "hero_id":  107,
+                                                  "hero_name":  "èµµäº",
+                                                  "hero_icon":  "107.jpg",
+                                                  "vid":  "5001834824383550541"
+                                              },
+                                              {
+                                                  "playerid":  "60011787",
+                                                  "position":  2,
+                                                  "hero_id":  106,
+                                                  "hero_name":  "å°ä¹",
+                                                  "hero_icon":  "106.jpg",
+                                                  "vid":  "5001834824384552501"
+                                              },
+                                              {
+                                                  "playerid":  "60011737",
+                                                  "position":  3,
+                                                  "hero_id":  151,
+                                                  "hero_name":  "å­æ",
+                                                  "hero_icon":  "151.jpg",
+                                                  "vid":  "5001834824386143304"
+                                              },
+                                              {
+                                                  "playerid":  "70010356",
+                                                  "position":  5,
+                                                  "hero_id":  194,
+                                                  "hero_name":  "èç",
+                                                  "hero_icon":  "194.jpg",
+                                                  "vid":  "5001834824381044385"
+                                              }
+                                          ]
+                          }
+                      ],
+    "players":  [
+                    {
+                        "playerid":  "60011036",
+                        "team_id":  "KPL2026S3_ts",
+                        "player_name":  "åäº¬WB.æ¢å¢¨",
+                        "player_name_en":  "",
+                        "player_name_short":  "æ¢å¢¨",
+                        "player_name_real":  "å´åæ°",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868643.png",
+                        "position":  1,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60010353",
+                        "team_id":  "KPL2026S3_ts",
+                        "player_name":  "åäº¬WB.æé³",
+                        "player_name_en":  "",
+                        "player_name_short":  "æé³",
+                        "player_name_real":  "ææ",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868641.png",
+                        "position":  4,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60011929",
+                        "team_id":  "KPL2026S3_ts",
+                        "player_name":  "åäº¬WB.å¬æ¦",
+                        "player_name_en":  "",
+                        "player_name_short":  "å¬æ¦",
+                        "player_name_real":  "å´ä½",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868646.png",
+                        "position":  2,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60012155",
+                        "team_id":  "KPL2026S3_ts",
+                        "player_name":  "åäº¬WB.æ­ç",
+                        "player_name_en":  "",
+                        "player_name_short":  "æ­ç",
+                        "player_name_real":  "å±ä¸ä¸",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868647.png",
+                        "position":  3,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60011807",
+                        "team_id":  "KPL2026S3_ts",
+                        "player_name":  "åäº¬WB.æ¶",
+                        "player_name_en":  "",
+                        "player_name_short":  "æ¶",
+                        "player_name_real":  "åºæ³½æ¶",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868651.png",
+                        "position":  5,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60011676",
+                        "team_id":  "KPL2026S3_rw",
+                        "player_name":  "æµåRWä¾ .å½æ",
+                        "player_name_en":  "",
+                        "player_name_short":  "å½æ",
+                        "player_name_real":  "åå°é§",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868615.png",
+                        "position":  1,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60010581",
+                        "team_id":  "KPL2026S3_rw",
+                        "player_name":  "æµåRWä¾ .ä»å±¿",
+                        "player_name_en":  "",
+                        "player_name_short":  "ä»å±¿",
+                        "player_name_real":  "å¾ç¿å®",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868617.png",
+                        "position":  4,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60011787",
+                        "team_id":  "KPL2026S3_rw",
+                        "player_name":  "æµåRWä¾ .æ½å¢¨",
+                        "player_name_en":  "",
+                        "player_name_short":  "æ½å¢¨",
+                        "player_name_real":  "éªéªå²©",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868619.png",
+                        "position":  2,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60011737",
+                        "team_id":  "KPL2026S3_rw",
+                        "player_name":  "æµåRWä¾ .å°ä¿",
+                        "player_name_en":  "",
+                        "player_name_short":  "å°ä¿",
+                        "player_name_real":  "å¨å®",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868621.png",
+                        "position":  3,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "70010356",
+                        "team_id":  "KPL2026S3_rw",
+                        "player_name":  "æµåRWä¾ .æ¢¦æºª",
+                        "player_name_en":  "",
+                        "player_name_short":  "æ¢¦æºª",
+                        "player_name_real":  "ææå®",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868623.png",
+                        "position":  5,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "70010342",
+                        "team_id":  "KPL2026S3_ts",
+                        "player_name":  "åäº¬WB.ä¸ç¬",
+                        "player_name_en":  "",
+                        "player_name_short":  "ä¸ç¬",
+                        "player_name_real":  "æèªå¨",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868649.png",
+                        "position":  5,
+                        "team_name_short":  ""
+                    },
+                    {
+                        "playerid":  "60012116",
+                        "team_id":  "KPL2026S3_ts",
+                        "player_name":  "åäº¬WB.å®å",
+                        "player_name_en":  "",
+                        "player_name_short":  "å®å",
+                        "player_name_real":  "å¼ éªé¾",
+                        "player_icon":  "https://mnappkplshop-pic.tmes.qq.com/cdn/archive/folder/avatar/KPL2026S3/215868644.png",
+                        "position":  4,
+                        "team_name_short":  ""
+                    }
+                ],
+    "title":  "2026KPLå¹´åº¦æ»å³èµ æå°èµ 10æ17æ¥(å¨å\u0085­) åäº¬WB 3:0 æµåRWä¾ "
+}
