@@ -30,7 +30,7 @@ const ALLOWED_HOSTS = ["kplshop-op.timi-esports.qq.com"];
 // 允许的来源（部署后改成你的 GitHub Pages 域名，或用 * 允许所有）
 const ALLOWED_ORIGINS = ["*"];
 
-function corsHeaders(request: Request): Record<string, string> {
+function corsHeaders(request) {
   const origin = request.headers.get("Origin") || "";
   const allowOrigin =
     ALLOWED_ORIGINS.includes("*") || ALLOWED_ORIGINS.includes(origin)
@@ -45,7 +45,7 @@ function corsHeaders(request: Request): Record<string, string> {
 }
 
 export default {
-  async fetch(request: Request): Promise<Response> {
+  async fetch(request) {
     // 预检请求
     if (request.method === "OPTIONS") {
       return new Response(null, {
