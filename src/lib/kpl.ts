@@ -46,6 +46,15 @@ export async function fetchSeasons(): Promise<KplSeason[]> {
   return data.seasons || [];
 }
 
+/** 获取全部阶段列表（直接从 getSeasonAndStageAndTeamList 取） */
+export async function fetchStages(): Promise<KplStage[]> {
+  const data = await post<{ stages: KplStage[] }>(
+    "/kplow/getSeasonAndStageAndTeamList",
+    {},
+  );
+  return data.stages || [];
+}
+
 /** 获取指定阶段的赛程 */
 export async function fetchSchedule(
   seasonid: string,
