@@ -95,9 +95,11 @@ export async function fetchMatchDetail(
  * 用一组 seed stageid 请求赛程，合并后提取去重的 stageid/stage_name。
  */
 const SEED_STAGES = [
-  "cgs1", "cgs2", "cgs3",
-  "lts", "twts", "fts",
-  "zjs", "bs", "xs1", "xs2",
+  "cgs1", "cgs2", "cgs3",          // 常规赛
+  "lts", "twts", "fts",           // 擂台赛 / 突围赛 / 附加赛
+  "tts",                           // 淘汰赛
+  "zjs",                           // 总决赛
+  "bs", "xs1", "xs2",              // 杯赛 / 小组赛
   "juesai", "ndjuesai",
 ];
 

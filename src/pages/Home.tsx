@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { RefreshCw } from "lucide-react";
-import { fetchSchedule, fetchSeasons, fetchStages } from "@/lib/kpl";
+import { discoverStages, fetchSchedule, fetchSeasons } from "@/lib/kpl";
 import type { KplMatch, KplSeason, KplStage, MatchStatus } from "@/types/kpl";
 import { getMatchStatus } from "@/types/kpl";
 import MatchCard from "@/components/MatchCard";
@@ -41,11 +41,11 @@ export default function Home() {
     })();
   }, []);
 
-  // 加载阶段（接口直接返回完整 stages 列表）
+  // 赛季变化时发现阶段
   useEffect(() => {
     if (!selectedSeason) return;
     setLoadingStages(true);
-    fetchStages()
+    discoverStages(selectedSeason)
       .then((list) => {
         setStages(list);
         if (list.length > 0) setSelectedStage(list[0].stageid);
