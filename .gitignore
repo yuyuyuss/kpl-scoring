@@ -31,3 +31,6 @@ schedule.js
 *.njsproj
 *.sln
 *.sw?
+
+# Cloudflare Worker
+.wrangler/
