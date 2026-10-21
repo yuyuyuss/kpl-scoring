@@ -92,19 +92,48 @@ export async function fetchMatchDetail(
 
 /**
  * 自动发现当前赛季的全部阶段。
- * 用一组 seed stageid 请求赛程，合并后提取去重的 stageid/stage_name。
+ * 1) 先调 getSeasonAndStageAndTeamList 取接口直接返回的 stages（最准确）
+ * 2) 接口返回空时，用 KPL 固定阶段映射表兜底
+ * 3) 最后再用 fetchSchedule 试探有赛程的阶段，补齐接口/兜底里没有的新阶段
  */
-const SEED_STAGES = [
-  "cgs1", "cgs2", "cgs3",          // 常规赛
-  "lts", "twts", "fts",           // 擂台赛 / 突围赛 / 附加赛
-  "tts",                           // 淘汰赛
-  "zjs",                           // 总决赛
-  "bs", "xs1", "xs2",              // 杯赛 / 小组赛
-  "juesai", "ndjuesai",
-];
+const KPL_STAGE_FALLBACK: Record<string, string> = {
+  cgs1: "常规赛第一轮",
+  cgs2: "常规赛第二轮",
+  cgs3: "常规赛第三轮",
+  lts: "擂台赛",
+  twts: "突围赛",
+  fts: "附加赛",
+  tts: "淘汰赛",
+  zjs: "总决赛",
+  bs: "杯赛",
+  xs1: "小组赛1",
+  xs2: "小组赛2",
+  juesai: "决赛",
+  ndjuesai: "年度决赛",
+};
+
+const SEED_STAGES = Object.keys(KPL_STAGE_FALLBACK);
 
 export async function discoverStages(seasonid: string): Promise<KplStage[]> {
   const stageMap = new Map<string, string>();
+
+  // 1) 优先从接口直接取
+  try {
+    const data = await post<{ stages: KplStage[] }>(
+      "/kplow/getSeasonAndStageAndTeamList",
+      {},
+    );
+    for (const s of data.stages || []) {
+      if (s.stageid) stageMap.set(s.stageid, s.stage_name);
+    }
+  } catch { /* ignore */ }
+
+  // 2) 兜底：KPL 固定阶段名
+  for (const [id, name] of Object.entries(KPL_STAGE_FALLBACK)) {
+    if (!stageMap.has(id)) stageMap.set(id, name);
+  }
+
+  // 3) 试探赛程，补齐接口和兜底都没覆盖的新阶段（同时校验当前赛季哪些有比赛）
   await Promise.all(
     SEED_STAGES.map(async (sid) => {
       try {
@@ -114,11 +143,10 @@ export async function discoverStages(seasonid: string): Promise<KplStage[]> {
             stageMap.set(m.stageid, m.stage_name);
           }
         }
-      } catch {
-        // 单个种子失败不影响整体
-      }
+      } catch { /* ignore */ }
     }),
   );
+
   return Array.from(stageMap.entries()).map(([stageid, stage_name]) => ({
     stageid,
     stage_name,
